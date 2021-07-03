@@ -1,18 +1,10 @@
-import Head from "next/head"
+import React from "react"
 import tw from "twin.macro"
-import { Memes } from "../components/Memes"
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+import Layout from "@components/layout"
 
-      <main>
-        <Memes />
-      </main>
-    </div>
-  )
+const Home: React.FC = () => {
+  return <Layout>Home</Layout>
 }
+
+export default Home
