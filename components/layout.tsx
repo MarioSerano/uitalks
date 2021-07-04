@@ -86,6 +86,11 @@ const Layout: React.FC<LayoutProps> = props => {
     <div
       css={css`
         background: #110228;
+
+        @media (min-width: 1336px) {
+          max-width: 1336px;
+          margin: 0 auto;
+        }
       `}
     >
       {title && <SEO title={title} />}

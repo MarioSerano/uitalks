@@ -1,5 +1,12 @@
 * {
+  font-family: "Metropolis", "sans-serif", "Open Sans", "Helvetica Neue",
+    "sans-serif";
   color: white;
+}
+
+body {
+  background: #110228 !important;
+  overflow: hidden;
 }
 
 div > button:focus {

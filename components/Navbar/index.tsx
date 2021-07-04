@@ -33,16 +33,21 @@ const Navbar: React.FC<NavbarProps> = props => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return (
     <div
+      tw="fixed top-0 left-0 h-16 flex w-screen justify-center items-center bg-uitalks-primary"
       css={css`
         z-index: 1406;
+
+        @media (min-width: 1336px) {
+          max-width: 1336px;
+          left: calc(50% - (1336px / 2));
+        }
       `}
-      tw="fixed top-0 left-0 h-16 w-screen flex items-center bg-uitalks-primary px-6 md:(px-16) lg:(py-3 px-30)"
     >
       <div tw="block md:hidden">
         <MobileDrawer {...mobileNavigation} isOpen={isOpen} onClose={onClose} />
       </div>
 
-      <div tw="flex justify-between w-full my-auto xl:(max-w-5xl)">
+      <div tw="flex justify-between w-full my-auto mx-6 md:(mx-16) lg:(py-3 mx-30)">
         <div>
           <Link href="/">
             <a>
