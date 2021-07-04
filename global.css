@@ -1,3 +1,11 @@
+* {
+  color: white;
+}
+
+div > button:focus {
+  outline: none;
+}
+
 @font-face {
   font-family: "Abril Fatface";
   font-weight: 400;

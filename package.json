@@ -22,7 +22,7 @@
   "devDependencies": {
     "@emotion/babel-plugin": "^11.1.2",
     "@types/node": "^14.14.22",
-    "@types/react": "^17.0.0",
+    "@types/react": "^17.0.13",
     "babel-plugin-macros": "^2.8.0",
     "tailwindcss": "^2.0.2",
     "twin.macro": "^2.1.0",
