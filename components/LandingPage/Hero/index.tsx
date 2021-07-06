@@ -4,79 +4,6 @@ import tw, { css } from "twin.macro"
 
 import Button from "@components/Button"
 
-const BaseSpeakersLeftUrl = "/images/speakers/left"
-const BaseSpeakersMidUrl = "/images/speakers/mid"
-const BaseSpeakersRightUrl = "/images/speakers/right"
-
-const SpeakersLeft = [
-  {
-    name: "Klemens Rahardja",
-    title: "Founder of Entrepreneurs Society",
-    src: `${BaseSpeakersLeftUrl}/klemens-rahardja.png`,
-  },
-  {
-    name: "Michael Gunawan",
-    title: "Investment Associate at Altus",
-    src: `${BaseSpeakersLeftUrl}/michael-gunawan.png`,
-  },
-  {
-    name: "Rayhan Gautama",
-    title: "CEO of Pajak.io",
-    src: `${BaseSpeakersLeftUrl}/rayhan-gautama.png`,
-  },
-  {
-    name: "Tommy Teja",
-    title: "Founder of PT Zalmon Lestari Maha Megeri",
-    src: `${BaseSpeakersLeftUrl}/tommy-teja.png`,
-  },
-]
-
-const SpeakersMid = [
-  {
-    name: "Fellexandro Ruby",
-    title: "Cofounder MentorGue",
-    src: `${BaseSpeakersMidUrl}/fellexandro-ruby.png`,
-  },
-  {
-    name: "Gufron Syarif",
-    title: "CEO of Haus!",
-    src: `${BaseSpeakersMidUrl}/gufron-syarif.png`,
-  },
-  {
-    name: "Keke Genio",
-    title: "CMO of LokaPoin",
-    src: `${BaseSpeakersMidUrl}/keke-genio.png`,
-  },
-  {
-    name: "Natali Ardianto",
-    title: "CEO of Lifepack.id and Jovee.id",
-    src: `${BaseSpeakersMidUrl}/natali-ardianto.png`,
-  },
-]
-
-const SpeakersRight = [
-  {
-    name: "Arief Munandar",
-    title: "Founder of Peopleshift",
-    src: `${BaseSpeakersRightUrl}/arief-munandar.png`,
-  },
-  {
-    name: "Dimas Nugroho",
-    title: "Digital Strategist Lead at FemaleDaily.com",
-    src: `${BaseSpeakersRightUrl}/dimas-nugroho.png`,
-  },
-  {
-    name: "Rifqi Edrus",
-    title: "CMO of Goorita.com",
-    src: `${BaseSpeakersRightUrl}/rifqi-edrus.png`,
-  },
-  {
-    name: "Tom MC Ifle",
-    title: "CEO of Top Coach Indonesia",
-    src: `${BaseSpeakersRightUrl}/tom-mcifle.png`,
-  },
-]
-
 const variants = {
   initial: { opacity: 0, transition: { duration: 1 } },
   show: { opacity: [0, 1] },
@@ -85,18 +12,37 @@ const variants = {
   },
 }
 
-const LandingPage: React.FC = () => {
+export type PembicaraHero = {
+  name: string
+  title: string
+  src: string
+}
+
+interface BaseHeroProps {
+  speakersLeft: PembicaraHero[]
+  speakersMid: PembicaraHero[]
+  speakersRight: PembicaraHero[]
+}
+
+export type HeroProps = BaseHeroProps
+
+const Hero: React.FC<HeroProps> = props => {
+  const { speakersLeft, speakersMid, speakersRight } = props
+
   const [slide, setSlide] = useState<number>(0)
+  const maxSlide =
+    Math.min(speakersLeft.length, speakersMid.length, speakersRight.length) - 1
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setSlide(prevPage => (prevPage + 1 > 3 ? 0 : prevPage + 1))
+      setSlide(prevPage => (prevPage + 1 > maxSlide ? 0 : prevPage + 1))
     }, 5000)
     return () => clearInterval(interval)
   }, [])
 
-  const leftSpeaker = SpeakersLeft[slide]
-  const midSpeaker = SpeakersMid[slide]
-  const rightSpeaker = SpeakersRight[slide]
+  const leftSpeaker = speakersLeft[slide]
+  const midSpeaker = speakersMid[slide]
+  const rightSpeaker = speakersRight[slide]
 
   return (
     <section>
@@ -198,7 +144,14 @@ const LandingPage: React.FC = () => {
               >
                 <motion.div variants={variants} key={slide} tw="relative z-10">
                   <div tw="pb-4">
-                    <img src={leftSpeaker.src} alt={leftSpeaker.name} />
+                    <img
+                      css={css`
+                        width: 150px;
+                        height: 150px;
+                      `}
+                      src={leftSpeaker.src}
+                      alt={leftSpeaker.name}
+                    />
                   </div>
                   <div
                     tw="pt-4"
@@ -247,7 +200,14 @@ const LandingPage: React.FC = () => {
               >
                 <motion.div variants={variants} key={slide} tw="relative z-10">
                   <div tw="pb-4">
-                    <img src={midSpeaker.src} alt={midSpeaker.name} />
+                    <img
+                      css={css`
+                        width: 200px;
+                        height: 200px;
+                      `}
+                      src={midSpeaker.src}
+                      alt={midSpeaker.name}
+                    />
                   </div>
                   <div tw="pt-4">
                     <h2 tw="text-base font-bold pb-1 text-center">
@@ -291,7 +251,14 @@ const LandingPage: React.FC = () => {
               >
                 <motion.div variants={variants} key={slide} tw="relative z-10">
                   <div tw="pb-4">
-                    <img src={rightSpeaker.src} alt={rightSpeaker.name} />
+                    <img
+                      css={css`
+                        width: 150px;
+                        height: 150px;
+                      `}
+                      src={rightSpeaker.src}
+                      alt={rightSpeaker.name}
+                    />
                   </div>
                   <div
                     tw="pt-4"
@@ -316,4 +283,4 @@ const LandingPage: React.FC = () => {
   )
 }
 
-export default LandingPage
+export default Hero

@@ -18,7 +18,7 @@ const CompanyProfile: React.FC<CompanyProfileProps> = props => {
           css`
             margin-top: 10.25rem;
           `,
-          tw`justify-center items-center mb-9`,
+          tw`mb-9`,
         ]}
       >
         <div tw="flex flex-col items-center mx-6 md:(mx-16) lg:(mx-30)">
