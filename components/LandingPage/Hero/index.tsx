@@ -103,10 +103,9 @@ const LandingPage: React.FC = () => {
       <div
         css={[
           css`
-            min-height: calc(100vh - 64px);
-            margin-top: 64px;
+            margin-top: 6.75rem;
           `,
-          tw`relative w-full h-full overflow-hidden flex flex-col items-center justify-center`,
+          tw`relative w-full h-full flex flex-col items-center justify-center mb-9`,
         ]}
       >
         <div
@@ -128,7 +127,7 @@ const LandingPage: React.FC = () => {
             tw`absolute`,
             css`
               top: -30px;
-              right: calc(50% - 378px - 350px);
+              right: calc(50% - 378px - 300px);
             `,
           ]}
         >

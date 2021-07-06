@@ -85,6 +85,8 @@ const Layout: React.FC<LayoutProps> = props => {
   return (
     <div
       css={css`
+        width: 100vw;
+        overflow: hidden;
         background: #110228;
 
         @media (min-width: 1336px) {
@@ -101,7 +103,7 @@ const Layout: React.FC<LayoutProps> = props => {
       <main
         css={[
           css`
-            margin-top: 64px;
+            padding-top: 64px;
             min-height: calc(100vh - 64px);
           `,
         ]}

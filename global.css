@@ -6,7 +6,8 @@
 
 body {
   background: #110228 !important;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 div > button:focus {
