@@ -16,14 +16,14 @@ export type SmallNavProps = BaseSmallNavProps
 const SmallNav: React.FC<SmallNavProps> = props => {
   const { navigations, activeTitle, setActiveTitle } = props
   return (
-    <div tw="space-x-10">
+    <div tw="space-x-10 flex w-full overflow-x-auto">
       {navigations.map(({ title }) => (
         <button
           css={[
             title === activeTitle
               ? tw`border-b-2 border-white font-bold opacity-100`
               : tw`font-normal opacity-30`,
-            tw`text-white text-sm`,
+            tw`text-white text-sm flex-shrink-0`,
           ]}
           key={title}
           onClick={() => setActiveTitle(title)}
