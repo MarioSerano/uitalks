@@ -80,12 +80,12 @@ const RundownContents: RundownContent[] = [
     jadwal: [
       {
         waktu: "13:00 - 14:00",
-        title: "How to Rise and Survive During and After Pandemic",
+        title: "How to Rise and Survive During and After pandemic",
         name: "Natali Ardianto",
         image: `${baseSpeakersUrl}/natali-ardianto.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi pertama adalah Tycoon Mindset. Pak Natali Ardianto selaku pembicara akan memaparkan materi tentang mindset as entrepreneur. Selain itu, peserta juga akan mendapatkan tips dan strategi untuk bertahan dan bangkit kembali selama dan setelah pandemi.",
         social: [
           {
             type: "instagram",
@@ -99,12 +99,12 @@ const RundownContents: RundownContent[] = [
       },
       {
         waktu: "14:00 - 15:00",
-        title: "Execute Like Props: How to Implement the Ideas",
+        title: "How to Implement the Ideas",
         name: "Gufron Syarif",
         image: `${baseSpeakersUrl}/gufron-syarif.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi kedua adalah Execute Like a Pros. Pada sesi kedua, webinar akan dibawakan oleh Gufron Syarif selaku CEO Haus, dengan materi bagaimana mengimplementasikan sebuah ide. Selain pemaparan materi oleh pembicara, akan dilaksanakan juga workshop berupa Business Model Canvas.",
         social: [
           {
             type: "instagram",
@@ -114,12 +114,12 @@ const RundownContents: RundownContent[] = [
       },
       {
         waktu: "15:00 - 16:00",
-        title: "The Journey of Keke Genio in Building LokaPoin",
+        title: "The Journey of Keke Genio in Building Lokapoin",
         name: "Keke Genio",
         image: `${baseSpeakersUrl}/keke-genio.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi ketiga adalah Learn from the Experienced. Pada sesi ketiga, materi akan dibawakan oleh Keke Genio selaku Co-Founder at Lokapoin. Kak Keke Genio akan membagikan cerita dan pengalamannya dalam membangun bisnisnya.",
         social: [
           {
             type: "instagram",
@@ -139,12 +139,12 @@ const RundownContents: RundownContent[] = [
       {
         waktu: "13:00 - 14:00",
         title:
-          "Empowering Leadership: The Role of Management in Facing Pandemic",
+          "Empowering leadership : The Role of Management Empowerment in Facing Pandemic",
         name: "Arief Munandar",
         image: `${baseSpeakersUrl}/arief-munandar.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi pertama adalah Tycoon Mindset. Pak Arief Munandar selaku pembicara akan memaparkan materi tentang Leadership dalam sebuah bisnis. Selain itu, peserta juga akan mendapatkan insight mengenai bagaimana memberdayakan sumber daya yang dimiliki selama masa pandemi.",
         social: [
           {
             type: "instagram",
@@ -158,13 +158,12 @@ const RundownContents: RundownContent[] = [
       },
       {
         waktu: "14:00 - 15:00",
-        title:
-          "Collaboration is the Key to Transform Business in the Digital Era",
+        title: "Collaboration is Key To Transform Business in Digital Era",
         name: "Tom MC Ifle",
         image: `${baseSpeakersUrl}/tom-mcifle.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi kedua adalah Execute Like a Pros. Pada sesi kedua, webinar akan dibawakan oleh Coach Tom Mc Ifle selaku CEO Top Coach Indonesia, dengan materi bagaimana pentingnya berkolaborasi dalam membangun bisnis di era digital. Selain pemaparan materi oleh pembicara, akan dilaksanakan juga workshop agar peserta dapat mempraktekkannya dalam bisnisnya.",
         social: [
           {
             type: "instagram",
@@ -179,13 +178,13 @@ const RundownContents: RundownContent[] = [
       {
         waktu: "15:00 - 16:00",
         title:
-          "Great Mindset: Adopting an Agile Mindset and Organize Your Team in Business",
+          "Great Mindset: Adopting An Agile Mindset and Organize Your Team In Business",
         name: "Fellexandro Ruby",
         image: `${baseSpeakersUrl}/fellexandro-ruby.png`,
 
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi ketiga adalah Learn from the Experienced. Pada sesi ketiga, materi akan dibawakan oleh Fellexandro Ruby selaku Co-Founder MentorGue dan Content Creator. Kak Fellexandro Ruby akan membagikan cerita dan pengalamannya dalam membangun karir, berkolaborasi dengan banyak orang, dan pentingnya mengelola sebuah tim selama ia berkarir.",
         social: [
           {
             type: "instagram",
@@ -210,7 +209,7 @@ const RundownContents: RundownContent[] = [
         image: `${baseSpeakersUrl}/michael-gunawan.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi pertama adalah Tycoon Mindset. Kak Michael Gunawan selaku pembicara akan memaparkan materi tentang pentingnya memisahkan keuangan pribadi dengan keuangan bisnis. Selain itu, peserta juga akan mendapatkan insight mengenai mindset yang harus dimiliki seorang pebisnis dalam mengelola keuangan.",
         social: [
           {
             type: "instagram",
@@ -229,7 +228,7 @@ const RundownContents: RundownContent[] = [
         image: `${baseSpeakersUrl}/klemens-rahardja.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi kedua adalah Execute Like a Pros. Pada sesi kedua, webinar akan dibawakan oleh Klemens Rahardja selaku Founder The Entrepreneurs Society, dengan materi bagaimana melakukan perencanaan dan ekspetasi keuangan dalam bisnis. Selain pemaparan materi oleh pembicara, akan dilaksanakan juga workshop agar peserta dapat mempraktekkannya dalam bisnisnya.",
         social: [
           {
             type: "instagram",
@@ -243,12 +242,12 @@ const RundownContents: RundownContent[] = [
       },
       {
         waktu: "15:00 - 16:00",
-        title: "Financial Models and Plans: Why Are They Important",
+        title: "Financial Models and Taxes : Why They Are Important",
         name: "Rayhan Gautama",
         image: `${baseSpeakersUrl}/rayhan-gautama.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi ketiga adalah Learn from the Experienced. Pada sesi ketiga, materi akan dibawakan oleh Rayhan Gautama selaku CEO Pajak.io. Kak Rayhan Gautama akan membagikan cerita dan pengalamannya dalam pengelolaan keuangan dalam bisnisnya dan juga memberikan insight mengenai perpajakan bagi UMKM.",
         social: [
           {
             type: "linkedin",
@@ -268,7 +267,7 @@ const RundownContents: RundownContent[] = [
         image: `${baseSpeakersUrl}/rifqi-edrus.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi pertama adalah Tycoon Mindset. Kak Rifqi Edrus selaku pembicara akan memaparkan materi tentang bedanya marketing dan branding, dan bagaimana cara melakukan keduanya. Selain itu, pembicara juga akan memberikan insight mengenai mindset yang harus dimiliki seorang pebisnis dalam melakukan marketing dan juga branding.",
         social: [
           {
             type: "instagram",
@@ -288,7 +287,7 @@ const RundownContents: RundownContent[] = [
         image: `${baseSpeakersUrl}/dimas-nugroho.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi kedua adalah Execute Like a Pros. Pada sesi kedua, webinar akan dibawakan oleh Dimas Nugroho Putro selaku Digital Strategyst Lead Female Daily, dengan materi bagaimana melakukan digital marketing dan branding yang efektif. Selain pemaparan materi oleh pembicara, akan dilaksanakan juga workshop agar peserta mengenai digital marketing.",
         social: [
           {
             type: "instagram",
@@ -307,7 +306,7 @@ const RundownContents: RundownContent[] = [
         image: `${baseSpeakersUrl}/tommy-teja.png`,
         location: "Zoom, YouTube",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna iaculis, semper massa ac, hendrerit enim. Vivamus lacus sapien, sollicitudin sit amet felis eu, placerat placerat neque. Nulla ultrices sed nisi non molestie. Sed mattis vel lectus vitae interdum. Aliquam condimentum congue elit in tempor. Duis faucibus, mi et tristique rhoncus, metus augue porttitor mi, eu venenatis sem leo non mauris. Aliquam eget dictum sem. Phasellus in tempus mauris.",
+          "Sesi ketiga adalah Learn from the Experienced. Pada sesi ketiga, materi akan dibawakan oleh Tommy Surya Teja selaku Founder Zalmon Fabric. Kak Tommy Surya Teja akan membagikan cerita dan pengalamannya dalam membangun bisnisnya terutama perjalanannya untuk menjadi beda dari yang lain.",
         social: [
           {
             type: "instagram",
