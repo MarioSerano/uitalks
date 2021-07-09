@@ -6,9 +6,9 @@ import SmallNav from "./SmallNav"
 
 type SocialType = "instagram" | "linkedin"
 
-type Social = {
+export type Social = {
   type: SocialType
-  url: string | Location
+  url: string
 }
 
 export type Jadwal = {
