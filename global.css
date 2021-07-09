@@ -3,6 +3,9 @@
     "sans-serif";
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: #110228 !important;
@@ -10,8 +13,8 @@ body {
   overflow-y: auto;
 }
 
-div > button:focus {
-  outline: none;
+button:focus {
+  outline: none !important;
 }
 
 @font-face {

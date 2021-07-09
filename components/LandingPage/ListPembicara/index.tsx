@@ -25,7 +25,10 @@ const ListPembicara: React.FC<ListPembicaraProps> = props => {
       >
         <div tw="flex flex-col items-center mx-6 md:(mx-16) lg:(mx-30)">
           <div>
-            <h1 tw="font-abril-fatface text-4xl text-center">List Pembicara</h1>
+            <div tw="-mt-16" id="list-pembicara" />
+            <h1 tw="mt-16 font-abril-fatface text-4xl text-center">
+              List Pembicara
+            </h1>
             <p tw="mt-9 text-center">
               Pembicara kami yang akan memeriahkan UITalks
             </p>

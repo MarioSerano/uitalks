@@ -58,7 +58,8 @@ const Rundown: React.FC<RundownProps> = props => {
       >
         <div tw="flex flex-col items-center mx-6 md:(mx-16) lg:(mx-30)">
           <div tw="mb-6">
-            <h1 tw="font-abril-fatface text-4xl text-center">Rundown</h1>
+            <div id="jadwal" tw="-mt-16" />
+            <h1 tw="mt-16 font-abril-fatface text-4xl text-center">Rundown</h1>
           </div>
           <div tw="mb-12">
             <SmallNav

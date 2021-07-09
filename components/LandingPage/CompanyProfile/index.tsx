@@ -23,7 +23,8 @@ const CompanyProfile: React.FC<CompanyProfileProps> = props => {
       >
         <div tw="flex flex-col items-center mx-6 md:(mx-16) lg:(mx-30)">
           <div tw="max-w-lg">
-            <h1 tw="font-abril-fatface text-4xl text-center">
+            <div id="tentang-uitalks" tw="-mt-16" />
+            <h1 tw="font-abril-fatface mt-16 text-4xl text-center">
               Apa itu UITalks?
             </h1>
             <p tw="mt-9 text-center">
