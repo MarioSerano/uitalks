@@ -29,6 +29,9 @@
     "twin.macro": "^2.1.0",
     "typescript": "^4.1.3"
   },
+  "optionalDependencies": {
+    "fsevents": "~2.1.2"
+  },
   "babelMacros": {
     "twin": {
       "preset": "emotion"
