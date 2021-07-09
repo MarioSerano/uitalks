@@ -6,6 +6,8 @@ import Hero, { PembicaraHero } from "./Hero"
 import CompanyProfile from "./CompanyProfile"
 import ListPembicara from "./ListPembicara"
 import Rundown, { RundownContent } from "./Rundown"
+import Tagar from "./Tagar"
+import Kontak from "./Kontak"
 
 const baseSpeakersUrl = "/images/speakers"
 
@@ -332,6 +334,8 @@ const LandingPage: React.FC = () => {
       <CompanyProfile youtubeUrl="https://www.youtube.com/watch?v=gFYgD6mXAbw" />
       <ListPembicara listPembicara={Speakers} />
       <Rundown rundownContents={RundownContents} />
+      <Tagar />
+      <Kontak />
     </div>
   )
 }
